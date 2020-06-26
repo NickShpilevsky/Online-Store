@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div id="navBar" class="bar shadow-lg p-3 mb-5 bg-secondary">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <button id="cartButton" type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-xl">Cart <span class="fas fa-shopping-cart"></span></button>
+            </li>
+        </ul>
+    </div>
+
+    <div id="logo"></div>
+
+    <div id="productsBar" class="bar shadow-lg p-3 mb-5 bg-secondary">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                Products <span class="fas fa-bars"></span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="categoryWrapper" class="bg-dark"></div>
+
+
+    <!--Cart Modal-->
+    <div id="#CartModal" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content text-white bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart <span class="fas fa-shopping-cart"></span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!--<button type="button" id="chooseButton" class="btn btn-light">choose a few topics</button>-->
+
+
+                <div id="customerProducts" class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Info Modal-->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content text-white bg-dark">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="infoHeader"></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="information" class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/LittleCard.js"></script>
+    <script src="js/Card.js"></script>
+    <script src="js/CustomerList.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

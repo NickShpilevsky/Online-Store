@@ -1,0 +1,21 @@
+#navBar{
+    position: absolute; width: 100%;
+}
+#logo{
+    height: 500px; background: url("images/logo.jpg");
+}
+#modalSize{
+    width: 700px;
+}
+#productsBar{
+    width: 100%; position: absolute; top: 450px; color: white; font-size: 16pt;
+}
+/*#chooseButton{*/
+    /*position: absolute; top: 77px; left: 80%;*/
+/*}*/
+#categoryWrapper{
+    width: 100%; height: 1000px;
+}
+#infoModalSize{
+    width: 500px; position: absolute; left: 35%; top: 200px; display: block;
+}
