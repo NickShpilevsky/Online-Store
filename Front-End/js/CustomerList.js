@@ -9,30 +9,10 @@ class CustomerList {
 
         let data = this.data;
 
-        if(selectedProducts.length > 0) {
-            // $('#chooseButton').css('display', 'block');
-        }
-
-        const chooseButton = document.createElement('button');
-        createButton(chooseButton, parent, 'btn btn-light', 'right', 'choose a few topics',);
-        $(chooseButton).on('click', () => {
-            $('#customerProducts').html('');
-            choose = true;
-            printProducts();
-            console.log('pressed');
-        });
-
-
         const topic = document.createElement('div');
         topic.style = 'width: 400px; height: 45px; font-size: 16pt';
         const topicText = document.createTextNode(data.header);
         topic.appendChild(topicText);
-        if(choose) {
-            const checkbox = document.createElement('input');
-            checkbox.setAttribute('type', 'checkbox');
-            // checkbox.setAttribute('class', 'custom-control-input');
-            topic.insertBefore(checkbox, topicText);
-        }
         parent.appendChild(topic);
 
         const deleteButton = document.createElement('button');
