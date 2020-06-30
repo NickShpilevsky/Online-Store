@@ -57,7 +57,7 @@ const products = [
             ' front consisting of an 8-megapixel wide-angle lens and an 8-megapixel standard lens. It has a 2915mAh non-removable battery ' +
             'and runs on stock Android 9 Pie</p>'},
     {name: 'div', parent: '#categoryWrapper', header: 'Xiaomi Mi 9',
-        imgURL: 'https://npvua.com/ru/wp-content/uploads/2018/11/Xiaomi-Mi-9-opublikovany-predpolagaemye-harakteristiki-i-render-gryadushhego-flagmana.jpg',
+        imgURL: 'https://s.4pda.to/Iu0aTeVTtoO9Eq0eQ9fz1CIjHgUQB7LRA1CkQ.jpg',
         text: 'Why overpay if it is Xiaomi Mi 9 for only 450$ ?', index: 3, price: 'Price: 450$', info: '<p>Xiaomi Mi 9 smartphone was launched in February 2019. The phone comes with' +
             ' a 6.39-inch touchscreen display with a resolution of 1080x2340 pixels and an aspect ratio of 19.5:9.\n' +
             '\n' + 'Xiaomi Mi 9 is powered by a 2.84GHz octa-core Qualcomm Snapdragon 855 processor. It comes with 6GB of RAM.\n' +

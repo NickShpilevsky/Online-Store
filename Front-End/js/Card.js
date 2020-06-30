@@ -76,6 +76,7 @@ class Card {
                     'background': imageString,
                 },
             }).appendTo('#information');
+            const addButton = document.createElement('button');
             createButton(addButton, information, 'btn btn-primary', 'right', 'add to Cart',);
             $(addButton).on('click', addToList(data, index));
         });
@@ -84,4 +85,3 @@ class Card {
         parent.appendChild(newCard);
     }
 }
-
