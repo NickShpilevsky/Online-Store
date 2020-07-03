@@ -11,3 +11,10 @@ You can read information about every product, add them to the cart and make an o
 4. Open index.html
 
 # Demo
+![photo](screenshots/1.PNG)  
+
+![photo](screenshots/2.PNG)  
+
+![photo](screenshots/3.PNG)  
+
+![photo](screenshots/4.PNG)
